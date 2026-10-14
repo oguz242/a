@@ -1,6 +1,3 @@
--- Roblox Studio için StarterGui içerisine atılabilecek LocalScript örneği
--- Veya bir Executor/loadstring ortamında doğrudan çalıştırılabilir.
-
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
 local LocalPlayer = Players.LocalPlayer
@@ -140,7 +137,5 @@ sendButton.Text = "Görseli Gönder"
 isSending = false
 
 
-end
 
--- Butona tıklama olayı
-sendButton.MouseButton1Click:Connect(sendWebhook)
+end
